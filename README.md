@@ -2,8 +2,6 @@
 
 The PhD thesis was developed at EPFL between November 2017 and November 2021 by [Stefano Bortolomiol], under the supervision of Michel Bierlaire and Virginie Lurkin.
 
-## Content
-
 This repository contains all the code related to the experiments contained in the PhD thesis. The thesis is composed of three core sections.
 
 - Chapter 2, based on the following article: Bortolomiol, S., Lurkin, V., Bierlaire, M. (2021). [A simulation-based heuristic to find approximate equilibria with disaggregate demand models]. Transportation Science, 55(5):1025–1045.
@@ -12,7 +10,13 @@ This repository contains all the code related to the experiments contained in th
 
 - Chapter 4, which builds upon the work presented in the following conference paper: Bortolomiol, S., Lurkin, V., Bierlaire, M., Bongiovanni, C. (2021). [Benders decomposition for choice-based optimization problems with discrete upper-level variables]. In Proceedings of the 21st Swiss Transport Research Conference, Ascona, Switzerland.
 
-_Software requirements: all algorithms are coded in Python, and all MILPs are solved using CPLEX. As of January 2022, CPLEX is available free of charge to all academic users through the IBM ILOG Optimization [Academic Initiative]._
+When using this algorithm (or part of it) in derived academic studies, please cite the above-mentioned works.
+
+## Software requirements
+
+_All algorithms are coded in Python, and all MILPs are solved using CPLEX. As of January 2022, CPLEX is available free of charge to all academic users through the IBM ILOG Optimization [Academic Initiative]._
+
+## Content of the repository
 
 There are five folders in the main repository. The following table outlines the relationship between the various case studies and the corresponding sections of the thesis:
 
@@ -24,10 +28,32 @@ There are five folders in the main repository. The following table outlines the 
 | [case-study-intercity-travel] | 3.4 |
 | [benders-facility-location-pricing] | 4.2 + 4.6 |
 
+### [case-study-Lin-Sibdari]
+To be updated.
+
+### [case-study-parking]
+To be updated.
+
+### [case-study-HSR]
+To be updated.
+
+### [case-study-intercity-travel]
+To be updated.
+
+### [benders-facility-location-pricing]
+To be updated.
+
+
+## Contact
+
+Please write to Stefano Bortolomiol if you have comments or questions.
+_stefano(dot)bortolomiol(at)epfl(dot)ch_
 
 ## License
 
-[MIT License]
+ - [MIT License]
+ - Copyright(c) 2022 Stefano Bortolomiol
+
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. See StackOverflow: http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
