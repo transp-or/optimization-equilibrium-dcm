@@ -45,7 +45,9 @@ data_HSR_nested_logit.py contains the dataset.
 Case study on regulated competition. The parameters concerning regulation are contained in the function regulator() of the file [case-study-intercity-travel/data_intercity_nested_logit.py]. To run a single instance, run [case-study-intercity-travel/algorithm_regulation.py] as main file. To run a sensitivity analysis (e.g. by varying the value of the social cost of carbon on a predefined range), run [case-study-intercity-travel/main.py] with appropriate parameters.
 
 ### [benders-facility-location-pricing]
-To be updated.
+File [model_continuous_assortment.py] solves the optimization problem with assortment and continuous price variables (ACPP, Section 4.2.2.1). 
+File [model_discrete_assortment.py] solves the optimization problem with assortment and discrete price variables (ADPP, Section 4.2.2.2).
+File [benders_discrete.py] runs the branch-and-Benders-cut algorithm for the optimization problem with discrete supply variables (Section 4.5)
 
 
 ## Contact
@@ -78,9 +80,14 @@ _stefano(dot)bortolomiol(at)epfl(dot)ch_
    [case-study-Lin-Sibdari/main.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-Lin-Sibdari/main.py>
    [case-study-parking/main.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-parking/main.py>
    [case-study-HSR/main.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-HSR/main.py>
+   
    [case-study-intercity-travel/data_intercity_nested_logit.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-intercity-travel/data_intercity_nested_logit.py>
    [case-study-intercity-travel/algorithm_regulation.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-intercity-travel/algorithm_regulation.py>
    [case-study-intercity-travel/main.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-intercity-travel/main.py>
+   
+   [model_continuous_assortment.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/benders-facility-location-pricing/model_continuous_assortment.py>
+   [model_discrete_assortment.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/benders-facility-location-pricing/model_discrete_assortment.py>
+   [benders_discrete.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/benders-facility-location-pricing/benders_discrete.py>
    
    [Lin and Sibdari (2009)]: https://www.sciencedirect.com/science/article/pii/S0377221708002105
    
