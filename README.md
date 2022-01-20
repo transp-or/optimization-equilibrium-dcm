@@ -29,16 +29,20 @@ There are five folders in the main repository. The following table outlines the 
 | [benders-facility-location-pricing] | 4.2 + 4.6 |
 
 ### [case-study-Lin-Sibdari]
-To be updated.
+Three numerical experiments are performed: (i) Data_LinSibdari_MNL.py contains the original data as in the benchmark experiments by [Lin and Sibdari (2009)]; (ii) Data_LinSibdari_ObservedHet.py proposes a variation with observed heterogeneity (MNL with 3 segments); (iii) Data_LinSibdari_UnobservedHet.py proposes a variation with unobserved heterogeneity (mixed logit).
+[case-study-Lin-Sibdari/main.py] runs the simulation-based heuristic to find approximate equilibrium solutions for the competitive market (Algorithm 1).
 
 ### [case-study-parking]
-To be updated.
+data_parking.py contains the dataset.
+The 50 customers defined in the function demand() are grouped in 11 categories.
+[case-study-parking/main.py] runs the simulation-based heuristic to find approximate equilibrium solutions for the competitive market (Algorithm 1).
 
 ### [case-study-HSR]
-To be updated.
+data_HSR_nested_logit.py contains the dataset.
+[case-study-HSR/main.py] runs the simulation-based heuristic to find approximate equilibrium solutions for the competitive market (Algorithm 1).
 
 ### [case-study-intercity-travel]
-To be updated.
+Case study on regulated competition. The parameters concerning regulation are contained in the function regulator() of the file [case-study-intercity-travel/data_intercity_nested_logit.py]. To run a single instance, run [case-study-intercity-travel/algorithm_regulation.py] as main file. To run a sensitivity analysis (e.g. by varying the value of the social cost of carbon on a predefined range), run [case-study-intercity-travel/main.py] with appropriate parameters.
 
 ### [benders-facility-location-pricing]
 To be updated.
@@ -70,6 +74,15 @@ _stefano(dot)bortolomiol(at)epfl(dot)ch_
    [case-study-HSR]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/tree/main/case-study-HSR>
    [case-study-intercity-travel]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/tree/main/case-study-intercity-travel>
    [benders-facility-location-pricing]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/tree/main/benders-facility-location-pricing>
+   
+   [case-study-Lin-Sibdari/main.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-Lin-Sibdari/main.py>
+   [case-study-parking/main.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-parking/main.py>
+   [case-study-HSR/main.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-HSR/main.py>
+   [case-study-intercity-travel/data_intercity_nested_logit.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-intercity-travel/data_intercity_nested_logit.py>
+   [case-study-intercity-travel/algorithm_regulation.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-intercity-travel/algorithm_regulation.py>
+   [case-study-intercity-travel/main.py]: <https://github.com/stefanoborto/optimization-equilibrium-dcm/blob/main/case-study-intercity-travel/main.py>
+   
+   [Lin and Sibdari (2009)]: https://www.sciencedirect.com/science/article/pii/S0377221708002105
    
    [MIT License]: <https://opensource.org/licenses/MIT>
   
